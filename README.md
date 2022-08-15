@@ -30,6 +30,7 @@ Or go to [https://ginqo.com/scramble](https://ginqo.com/scramble) and drag the b
 -   Values of the field will be scrambled right away without refresh.
 
 **Known limitations**
+-   You must add at least one extension object to the sheet before execute the scramble bookmark. ([Open Issue#1](https://github.com/rikiginqo/qliksense-field-scrambler/issues/1))
 -   Works on Chrome, Edge and Firefox. Internet Explorer and Safari are not supported.
 
 
