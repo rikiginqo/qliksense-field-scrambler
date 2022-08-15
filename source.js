@@ -1,4 +1,4 @@
-let field_name = prompt("Enter field name", "UserName");
+let field_name = prompt("Enter field name", "FieldName");
 if (field_name == null || field_name == "") {
     console.log("User cancelled the prompt.");
   } else {
@@ -10,12 +10,12 @@ if (field_name == null || field_name == "") {
                 let field = await app.model.enigmaModel.getField({"qFieldName": field_name}); // check if field exists
                 let scramble_result = await app.model.enigmaModel.scramble({"qFieldName": field_name}); // execute Qlik Scramble API
                 let save_result = await app.doSave({"qFileName": field_name}) // save scrambled value
-                console.log(scramble_result)
+                //console.log(scramble_result)
                 alert('success')
             }
             catch (error) {
                 console.error(error);
-                alert('error')
+                alert(error.message)
             }
             finally {
                 console.log('done');
