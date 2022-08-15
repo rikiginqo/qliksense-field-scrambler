@@ -1,1 +1,38 @@
-# qliksense-field-scrambler
+
+**GINQO QlikSense Field Scrambler** is a bookmarklet to scramble any field value of your QlikSense app using javascript and [QlikSense Engine Scramble API](https://qlik.dev/apis/json-rpc/qix/doc#%23%2Fentries%2FDoc%2Fentries%2FScramble)  without making external calls to any server on every modern browser.
+	
+Scrambles a field so the data is not recognizable. Some properties are retained to help debugging. For example, special characters are not changed, and small numbers are scrambled to another small number.
+
+
+
+**About bookmarklet**
+
+A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is like a bookmark, but instead of loading a specific page, it injects JavaScript into the current page in your browser for added functionality. 
+
+
+
+
+
+**Installation** 
+
+Installation of this bookmarklet is performed by creating a new bookmark, and pasting the bookmarklet.js code above into the URL destination field. 
+Or go to [https://ginqo.com/scramble](https://ginqo.com/scramble) and drag the button to your bookmarks bar.
+
+
+**Note**  
+-   Before installing a Bookmarklet, make sure your browser’s bookmarks toolbar is visible.
+-   To remove a Bookmarklet, simply right click on it and hit delete.
+-   The bookmarklet code (bookmarklet.js) was simplifed from source.js using https://www.digitalocean.com/community/tools/minify and converted to bookmarklet using https://caiorss.github.io/bookmarklet-maker/
+
+**How to use**
+-   Open a QlikSense app sheet whether its on QlikCloud or on-premise
+-   Click on the "Scramble Field" bookmarklet
+-   Values of the field will be scrambled right away without refresh.
+
+**Known limitations**
+-   Works on Chrome, Edge and Firefox. Internet Explorer and Safari are not supported.
+
+
+
+**v.1.0 (2022-08-15)**
+-   Initial release
