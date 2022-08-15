@@ -5,6 +5,7 @@ Scrambles a field so the data is not recognizable. Some properties are retained 
 
 Update access is required to use the function in Qlik Sense Enterprise.
 
+
 **About bookmarklet**
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is like a bookmark, but instead of loading a specific page, it injects JavaScript into the current page in your browser for added functionality. 
@@ -16,7 +17,10 @@ Installation of this bookmarklet is performed by creating a new bookmark, and pa
 Or go to [https://ginqo.com/scramble](https://ginqo.com/scramble) and drag the button to your bookmarks bar.
 
 
-**Note**  
+**Important Note**  
+-   You can use this tool with published or un-published app, as long as you have access to Edit the app.
+-   Scrambled field values will be saved until you reload the app.
+-   Scrambled field values only available to you. Data for other users remain to the ORIGINAL value.
 -   Before installing a Bookmarklet, make sure your browser’s bookmarks toolbar is visible.
 -   To remove a Bookmarklet, simply right click on it and hit delete.
 -   The bookmarklet code (bookmarklet.js) was simplifed from source.js using https://www.digitalocean.com/community/tools/minify and converted to bookmarklet using https://caiorss.github.io/bookmarklet-maker/
