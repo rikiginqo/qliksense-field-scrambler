@@ -19,7 +19,7 @@ Or go to [https://ginqo.com/scramble](https://ginqo.com/scramble) and drag the b
 
 **Important Note**  
 -   You can use this tool with published or un-published app, as long as you have access to Edit the app.
--   Scrambled data is TEMPORARY, it will back to the original value after a while or after you RELOAD the app. If you want to keep the scrambled data, as a workaround you have to duplicate the app after scrambling. Important is, that you do not close the session in which you have scrambled bevor duplicating the app.
+-   Scrambled data is TEMPORARY, it will back to the original value after a while or after you RELOAD the app. If you want to keep the scrambled data, as a workaround you have to duplicate the app after scrambling. Important is, that you do not close the session in which you have scrambled before duplicating the app.
 -   Scrambled field values only available to you. Data for other users remain to the ORIGINAL value.
 -   Before installing a Bookmarklet, make sure your browser’s bookmarks toolbar is visible.
 -   To remove a Bookmarklet, simply right click on it and hit delete.
