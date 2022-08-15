@@ -3,14 +3,11 @@
 	
 Scrambles a field so the data is not recognizable. Some properties are retained to help debugging. For example, special characters are not changed, and small numbers are scrambled to another small number.
 
-
+Update access is required to use the function in Qlik Sense Enterprise.
 
 **About bookmarklet**
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is like a bookmark, but instead of loading a specific page, it injects JavaScript into the current page in your browser for added functionality. 
-
-
-
 
 
 **Installation** 
